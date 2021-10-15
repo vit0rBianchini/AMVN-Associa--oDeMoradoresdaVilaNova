@@ -1,0 +1,24 @@
+.inicio_titulo{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.palavra_cor-verde, .palavra_cor-vermelho, .palavra_cor-azul, .inicio_titulo{
+    text-transform: uppercase;
+}
+
+.palavra_cor-verde, .palavra_cor-vermelho, .palavra_cor-azul{
+    display: inline-block;
+}
+
+.palavra_cor-verde{
+    color: #429459;
+}
+
+.palavra_cor-azul{
+    color: #676988;
+}
+
+.palavra_cor-vermelho{
+    color: #B53535;
+}
