@@ -1,3 +1,10 @@
+@import url(../css/root.css);
+@import url(../css/cabecalho.css);
+@import url(../css/rodape.css);
+
+body{
+    overflow-x: hidden;
+}
 .inicio_titulo{
     display: inline-block;
     margin-right: 10px;
@@ -21,4 +28,76 @@
 
 .palavra_cor-vermelho{
     color: #B53535;
+}
+
+/* Carrosel css */
+
+.carrosel{
+    width: 100vw;
+    height: 400px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+}
+
+.carrosel_botao{
+    position: relative;
+    top: 20px;
+    left: calc(50vw - 60px );
+    z-index: 1;
+    width: 120px;
+    height: 40px;
+    border: 1px solid black;
+    background-color: #429459;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.25);
+}
+
+.carrosel_imgs{
+    display: flex;
+    height: 100%;
+    position: relative;
+    top: -40px;
+    left: -85vw;
+}
+
+.carrosel_img{
+    transition: 1s;
+    filter: blur(0px);
+    object-fit: cover;
+    min-width: 90vw;
+}
+
+.carrosel_img:nth-child(1), .carrosel_img:nth-child(3){
+    transition: 1s;
+    filter: blur(2px)
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .carrosel_imgs{
+        left: -63vw;
+    }
+    .carrosel_img{
+        min-width: 75vw;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    body{
+        overflow-x: auto;
+    }
+    
+    .carrosel{
+        width: calc(100vw - 17px);
+    }
+
+    .carrosel_imgs{
+        left: -40vw;
+    }
+    .carrosel_img{
+        min-width: 60vw;
+    }
 }

@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página Inicial | Início</title>
-    <link rel="stylesheet" href="assets/css/root.css">
-    <link rel="stylesheet" href="assets/css/cabecalho.css">
     <link rel="stylesheet" href="assets/css/inicio.css">
+    
     <script src="js/scripts.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script src="js/carrosel.js"></script>
 </head>
 <body id="body">
     <header class="cabecalho">
@@ -16,26 +17,56 @@
             <img onclick="toggleHome()" class="cabecalho_home" src="assets/img/home.svg" alt="">
             <div class="cabecalho_conteudo">
                 <img class="cabecalho_img" src="assets/img/logo.svg" alt="Desenho infantil de uma casa com pessoas junto com o seguinte texto 'Assosiação de moradores da vila nova'">
-                <h3  class="cabecalho_mensagem">"Lorem ipsum dolor sit amejknsjankxn xnaknxask xjanjsjahoxohao xaijsixjax aoxjaoaojmnis!"</h3>
+                <h2  class="cabecalho_mensagem">"Lorem ipsum dolor sit amejknsjankxn xnaknxask xjanjsjahoxohao xaijsixjax aoxjaoaojmnis!"</h2>
             </div>
                 
             <ul class="cabecalho_links" id="home">
                 <li class="cabecalho_item"><a class="cabecalho_link" href="#">Doe Agora</a></li>
-                <li class="cabecalho_item"><a class="cabecalho_link" href="#">Início</a></li>
-                <li class="cabecalho_item"><a class="cabecalho_link" href="#">Quem somos</a></li>
+                <li class="cabecalho_item cabecalho_item-now"><a class="cabecalho_link" href="#">Início</a></li>
+                <li class="cabecalho_item"><a class="cabecalho_link" href="pages/quemSomos.html">Quem somos</a></li>
                 <li class="cabecalho_item"><a class="cabecalho_link" href="#">Projetos</a></li>
                 <li class="cabecalho_item"><a class="cabecalho_link" href="#">Noticias</a></li>
                 <li class="cabecalho_item"><a class="cabecalho_link" href="#">Contato</a></li>
             </ul>
-            
-            
         </nav>
 
     </header>
     <main class="conteudo_principal">
-        <div><h1 class="inicio_titulo">Nossos <h1 class="palavra_cor-verde">projetos</h1></h1></div>
-        <div><h1 class="inicio_titulo">Alô <h1 class="palavra_cor-azul">comunidade</h1></h1></div>
-        <div><h1 class="inicio_titulo">Como <h1 class="palavra_cor-vermelho">doar</h1></h1></div>
+        <div class="carrosel">
+            <button class="carrosel_botao">DOE AGORA</button>
+            <div class="carrosel_imgs">
+            
+                <img class="carrosel_img" src="https://scontent.fjoi9-1.fna.fbcdn.net/v/t39.30808-6/r270/262054180_949934889288147_2282165890216402986_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=730e14&_nc_ohc=OV2d3bVGYswAX-cXk5Z&_nc_ht=scontent.fjoi9-1.fna&oh=142bae3786f33c1776130c498814ef83&oe=61AEA822" alt="" srcset="">
+                <img class="carrosel_img" src="https://scontent.fjoi9-1.fna.fbcdn.net/v/t39.30808-6/245084761_917235449224758_2645101864507264209_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=730e14&_nc_ohc=32vhMpwlXNIAX-qoeOd&_nc_ht=scontent.fjoi9-1.fna&oh=b28ad387959d1f08e163b9fdcb9a579e&oe=61ADE434" alt="" srcset="">
+                <img class="carrosel_img" src="https://scontent.fjoi9-1.fna.fbcdn.net/v/t39.30808-6/245180360_917222529226050_8731083655206004997_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=730e14&_nc_ohc=XxNbUGILVG8AX-Nngq0&_nc_ht=scontent.fjoi9-1.fna&oh=c8ea7702f0019d45b060aea0ce5b31ea&oe=61ACDF4E" alt="" srcset="">
+                
+            </div>
+        </div>
+
+        <div><h2 class="inicio_titulo">Nossos <h2 class="palavra_cor-verde">projetos</h2></h1></div>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo quasi sapiente sequi sint vitae cumque, temporibus facere. Eum et doloribus nostrum aspernatur tempore animi voluptas vero! Dignissimos deleniti cumque recusandae.
+        <div><h2 class="inicio_titulo">Alô <h2 class="palavra_cor-azul">comunidade</h2></h1></div>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus repudiandae officiis reiciendis, totam sequi autem magni dignissimos provident culpa neque, fugiat sed fuga incidunt, quo accusamus vero? Consectetur, nobis minus?
+        <div><h2 class="inicio_titulo">Como <h2 class="palavra_cor-vermelho">doar</h2></h2></div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, recusandae quo tenetur, iure odit repellat blanditiis quasi, iste porro vero sed dolorum unde! Aperiam placeat, dicta eveniet necessitatibus similique saepe?
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium recusandae itaque asperiores velit, eligendi, autem eum quos in dolorum temporibus inventore impedit maxime facere modi! Accusantium facilis totam esse doloribus!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis molestias totam aliquid, quasi dolor quam quibusdam aspernatur cumque dicta aut? Odit quo id tempore alias voluptates nostrum velit maxime sed!
     </main>
+    <footer class="rodape">
+        <div class="rodape_conteudo-links">
+            <a class="rodape_link" href=""><h2 class="rodape_texto">Endereço</h2>
+            <img class="rodape_img" src="/assets/img/icone-endereco.svg" alt=""></a>
+            <a class="rodape_link" href=""><h2 class="rodape_texto">Siga a gente</h2>
+            <img class="rodape_img" src="/assets/img/icone-facebook.svg" alt=""></a>
+            <a class="rodape_link" href=""><h2 class="rodape_texto">Ligue</h2>
+            <img class="rodape_img" src="/assets/img/icone-ligue.svg" alt=""></a>
+        </div>
+        <div class="rodape_conteudo-info">
+            <h6 class="rodape_info">
+                © 2021 - Matinhos<br>
+                Todos os Direitos Reservados
+            </h6>
+        </div>
+    </footer>
 </body>
 </html>

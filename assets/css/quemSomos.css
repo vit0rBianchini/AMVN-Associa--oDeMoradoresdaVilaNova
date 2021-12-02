@@ -1,0 +1,46 @@
+@import url(../css/root.css);
+@import url(../css/cabecalho.css);
+@import url(../css/rodape.css);
+
+
+.quemSomos_titulo-principal{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 90vw;
+    max-width: 400px;
+}
+
+.quemSomos_conteudo{
+    width: 100%;
+    background-color: #676988;
+}
+
+.quemSomos_titulo{
+    margin: 0;
+    width: 100%;
+    padding: 20px 0;
+
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(19, 19, 19);
+}
+
+.triangulo:nth-child(2){
+    width: 0; 
+    height: 0; 
+    border-left: 10px solid transparent;
+    border-top: 10px solid #949396;
+}
+
+.triangulo:nth-child(3){
+    width: 0; 
+    height: 0; 
+    border-right: 10px solid transparent;
+    border-top: 10px solid #949396;
+}
+
+.quemSomos_video{
+    width: 85vw;
+    max-width: 375px;
+}
