@@ -1,0 +1,66 @@
+@import url(../css/root.css);
+@import url(../css/cabecalho.css);
+@import url(../css/rodape.css);
+
+.doacao_conteiner{
+    width: 100vw;
+}
+
+.doacao_img{
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+}
+
+.doacao_conteudo{
+    width: 100%;
+    background-color: #B53535;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.doacao_conteudo > div{
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.doacao_conteudo > div:nth-child(1){
+    padding-top: 30px;
+}
+
+.doacao_conteudo > div:last-child{
+    padding-bottom: 30px;
+}
+
+.doacao_titulo{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.doacao_titulo-destaque{
+    color: aliceblue;
+}
+
+
+@media screen and (min-width: 1024px) {
+    .doacao_conteiner{
+        height: 500px;
+    }
+    .doacao_img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .doacao_conteudo{
+        position: relative;
+        width: 500px;
+        height: 100%;
+        top: -504px;
+        right: calc(500px - 100%);
+        align-self: flex-end;
+        
+    }
+}

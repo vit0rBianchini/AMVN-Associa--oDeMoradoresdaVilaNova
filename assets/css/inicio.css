@@ -48,10 +48,13 @@ body{
     width: 120px;
     height: 40px;
     border: 1px solid black;
-    background-color: #429459;
-    border-radius: 10px;
+    background-color: #226535;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    
     cursor: pointer;
-    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.25);
+    box-shadow: 4px 3px 0px black
 }
 
 .carrosel_imgs{

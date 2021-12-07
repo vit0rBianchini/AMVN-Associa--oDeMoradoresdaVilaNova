@@ -2,8 +2,7 @@
 @import url(../css/cabecalho.css);
 @import url(../css/rodape.css);
 
-
-.quemSomos_titulo-principal{
+.projetos_titulo-principal{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -11,61 +10,37 @@
     max-width: 550px;
 }
 
-.quemSomos_conteudo{
+.projetos_conteudo{
     width: 100%;
-    background-color: #262EB5;
+    background-color: #226535;
 }
 
-.quemSomos_titulo{
+.projetos_titulo{
     margin: 0;
     width: 100%;
     padding: 20px 0;
 
     text-align: center;
     text-transform: uppercase;
-    color: white
+    color: white;
 }
 
 .triangulo:nth-child(2){
     width: 0; 
     height: 0; 
     border-left: 10px solid transparent;
-    border-top: 10px solid #676988;
+    border-top: 10px solid #67886e;
 }
 
 .triangulo:nth-child(3){
     width: 0; 
     height: 0; 
     border-right: 10px solid transparent;
-    border-top: 10px solid #676988;
+    border-top: 10px solid #718867;
 }
 
-.quemSomos_cont{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.quemSomos_img {
-    width: 60vw;
-    max-width: 305px;
-}
-
-.quemSomos_texto{
+.projetos_texto{
     width: 80vw;
     max-width: 500px;
     line-height: 20px;
-}
-
-@media screen and (min-width: 768px) {
-    .quemSomos_cont{
-        display: initial;
-        flex-direction: column;
-        align-items: center;
-    }
-    .quemSomos_img {
-        margin: 10px;
-        float: left;
-        
-    }
 }
