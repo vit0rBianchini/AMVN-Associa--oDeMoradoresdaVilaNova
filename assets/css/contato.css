@@ -41,15 +41,14 @@
     justify-content: center;
 }
 input[type="text"], input[type="email"], input[type="tel"], textarea{
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     height: 25px;
     border: 1px solid black;
     box-shadow: 3px 4px 0px #262EB5;
     border-radius: 4px;
-}
-
-input[type="text"]::placeholder, input[type="email"]::placeholder, input[type="tel"]::placeholder, textarea::placeholder{
-    padding: 10px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 textarea{
@@ -77,7 +76,7 @@ textarea{
     .contato_form-mensagem > form{
         display: grid;
         grid-template-columns: 55% 45%;
-        grid-template-rows: 40px 40px 40px 40px 40px auto;
+        grid-template-rows: 50px 50px 50px 50px 50px auto;
     }
     
     .contato_form-mensagem > h2{
@@ -110,7 +109,7 @@ textarea{
     }
 
     textarea{
-        height: 92%;
+        height: 90%;
         grid-column: 2/3;
         grid-row: 1/6;
     }

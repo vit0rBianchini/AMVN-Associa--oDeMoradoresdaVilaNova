@@ -4,6 +4,8 @@
 
 .doacao_conteiner{
     width: 100vw;
+    display: flex;
+    flex-direction: column;
 }
 
 .doacao_img{
@@ -18,6 +20,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-bottom: 10px;
 }
 
 .doacao_conteudo > div{
@@ -43,11 +46,51 @@
 .doacao_titulo-destaque{
     color: aliceblue;
 }
+.doacao_formasDeDoar{
+    width: 90vw;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.doacao_conteudo-titulo{
+    display: flex;
+    align-items: center;
+
+    height: 30px;
+    margin-bottom: 10px;
+    filter: drop-shadow(3px 4px 0px #313131);
+}
+
+.doacao_titulo-secundario{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    margin: 10px 0;
+    background-color: #B53535;
+
+    height: 100%;
+    color: white;
+}
+
+.doacao_titulo-secundario{
+    width: 150px;
+}
+
+.triangulo{
+    width: 0;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+   
+    border-left: 20px solid #B53535;
+}
 
 
 @media screen and (min-width: 1024px) {
     .doacao_conteiner{
         height: 500px;
+        display: block;
+        margin-bottom: 30px;
     }
     .doacao_img{
         width: 100%;

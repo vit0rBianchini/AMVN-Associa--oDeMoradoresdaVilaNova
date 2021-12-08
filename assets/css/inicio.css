@@ -89,10 +89,7 @@ body{
 }
 
 @media screen and (min-width: 1024px) {
-    body{
-        overflow-x: auto;
-    }
-    
+ 
     .carrosel{
         width: calc(100vw - 17px);
     }
